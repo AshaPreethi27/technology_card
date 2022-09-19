@@ -5,7 +5,7 @@ const CardItem = props => {
   const {title, description, imgUrl, className} = itemDetails
 
   return (
-    <li className={className} "card">
+     <li className={className} "card">
       <h1 className="cardHead">{title}</h1>
       <p className="cardPara">{description}</p>
       <img src={imgUrl} className="img-size" alt={title} />
